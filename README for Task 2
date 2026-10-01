@@ -1,0 +1,56 @@
+# Unemployment Analysis in India (COVID-19 Impact)
+
+**CodeAlpha Data Science Internship - Task 2**
+
+## Objective
+
+Analyse unemployment in India by cleaning and exploring the data, visualising trends, measuring the impact of COVID-19, and identifying important patterns.
+
+## Dataset
+
+Kaggle: [Unemployment in India](https://www.kaggle.com/datasets/gokulrajkmv/unemployment-in-india)
+
+* `Unemployment in India.csv` - 28 states, Rural/Urban, May 2019 - June 2020
+* `Unemployment_Rate_upto_11_2020.csv` - January - October 2020, used for the optional recovery analysis
+
+## Tools
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Google Colab
+
+## What the Notebook Does
+
+1. Loads and inspects the dataset
+2. Cleans missing, duplicate, and formatting issues
+3. Visualises national unemployment trends
+4. Compares Rural and Urban unemployment
+5. Analyses state-level unemployment
+6. Creates a state-by-month heatmap
+7. Compares unemployment before and during COVID-19
+8. Analyses employment and labour participation
+9. Examines pre-COVID monthly patterns
+10. Calculates correlations and generates key insights
+
+## Key Findings
+
+* Average unemployment increased substantially during the COVID-19 period.
+* Unemployment varied considerably between states.
+* Rural and Urban areas experienced different unemployment patterns.
+* Employment and labour participation also changed during the COVID-19 period.
+* The unemployment rate had started to ease by June 2020.
+
+## How to Run
+
+Open `Unemployment_Analysis_India.ipynb` in Google Colab and run the code.
+
+When prompted, upload the Kaggle `archive.zip` dataset.
+
+## Limitations
+
+* The dataset covers a relatively short period, so long-term seasonal trends cannot be established reliably.
+* National figures in this analysis are simple averages of available state observations and are not population-weighted.
+* The COVID comparison uses April 2020 onward as the COVID period because the dataset is monthly.
