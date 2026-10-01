@@ -1,19 +1,16 @@
-# Unemployment Analysis in India (COVID-19 Impact)
-
-**CodeAlpha Data Science Internship - Task 2**
+# CodeAlpha Task 2 - Unemployment Analysis in India (COVID-19 Impact)
 
 ## Objective
 
-Analyse unemployment in India by cleaning and exploring the data, visualising trends, measuring the impact of COVID-19, and identifying important patterns.
+Analyse unemployment in India using Python by cleaning the data, exploring trends, creating visualizations, studying the impact of COVID-19, and identifying important patterns.
 
 ## Dataset
 
-Kaggle: [Unemployment in India](https://www.kaggle.com/datasets/gokulrajkmv/unemployment-in-india)
+Kaggle - Unemployment in India
 
-* `Unemployment in India.csv` - 28 states, Rural/Urban, May 2019 - June 2020
-* `Unemployment_Rate_upto_11_2020.csv` - January - October 2020, used for the optional recovery analysis
+The dataset contains unemployment information for Indian states and includes Rural and Urban areas.
 
-## Tools
+## Tools Used
 
 * Python
 * Pandas
@@ -22,35 +19,40 @@ Kaggle: [Unemployment in India](https://www.kaggle.com/datasets/gokulrajkmv/unem
 * Seaborn
 * Google Colab
 
-## What the Notebook Does
+## Project Work
 
-1. Loads and inspects the dataset
-2. Cleans missing, duplicate, and formatting issues
-3. Visualises national unemployment trends
-4. Compares Rural and Urban unemployment
-5. Analyses state-level unemployment
-6. Creates a state-by-month heatmap
-7. Compares unemployment before and during COVID-19
-8. Analyses employment and labour participation
-9. Examines pre-COVID monthly patterns
-10. Calculates correlations and generates key insights
+* Loaded and inspected the unemployment dataset
+* Cleaned missing and duplicate data
+* Analysed unemployment trends over time
+* Compared Rural and Urban unemployment
+* Analysed state-wise unemployment rates
+* Created charts and a state-by-month heatmap
+* Studied the impact of COVID-19
+* Analysed employment and labour participation
+* Examined pre-COVID monthly patterns
+* Generated key insights from the analysis
 
 ## Key Findings
 
-* Average unemployment increased substantially during the COVID-19 period.
-* Unemployment varied considerably between states.
-* Rural and Urban areas experienced different unemployment patterns.
-* Employment and labour participation also changed during the COVID-19 period.
+* Unemployment increased significantly during the COVID-19 period.
+* Unemployment rates varied across different states.
+* Rural and Urban areas showed different unemployment patterns.
+* Employment and labour participation changed during the COVID-19 period.
 * The unemployment rate had started to ease by June 2020.
 
 ## How to Run
 
-Open `Unemployment_Analysis_India.ipynb` in Google Colab and run the code.
-
-When prompted, upload the Kaggle `archive.zip` dataset.
+1. Open `Unemployment_Analysis_India.ipynb` in Google Colab.
+2. Run the notebook.
+3. Upload the Kaggle `archive.zip` file when requested.
+4. Run the code to generate the analysis and visualizations.
 
 ## Limitations
 
-* The dataset covers a relatively short period, so long-term seasonal trends cannot be established reliably.
-* National figures in this analysis are simple averages of available state observations and are not population-weighted.
+* The dataset covers a limited period, so long-term seasonal trends cannot be measured reliably.
+* National averages in this project are simple averages of available state observations and are not population-weighted.
 * The COVID comparison uses April 2020 onward as the COVID period because the dataset is monthly.
+
+## Project Status
+
+Completed - CodeAlpha Data Science Internship Task 2
