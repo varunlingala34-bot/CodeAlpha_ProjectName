@@ -1,0 +1,105 @@
+# CodeAlpha Task 3 - Car Price Prediction with Machine Learning
+
+**CodeAlpha Data Science Internship**
+
+## Objective
+
+Build a machine learning model to predict used car selling prices based on features such as present price, manufacturing year, driven kilometers, fuel type, transmission, and ownership.
+
+## Dataset
+
+**Kaggle:** Car Price Prediction - Used Cars
+
+The dataset contains information about used cars, including:
+
+* Car name
+* Manufacturing year
+* Selling price
+* Present price
+* Driven kilometers
+* Fuel type
+* Selling type
+* Transmission
+* Number of previous owners
+
+## Tools and Technologies
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Google Colab
+
+## Project Steps
+
+### 1. Data Loading
+
+Loaded the car price dataset from a ZIP file and read the CSV data using Pandas.
+
+### 2. Data Preprocessing
+
+* Checked missing values
+* Checked duplicate records
+* Removed duplicate rows
+* Prepared numerical and categorical features
+
+### 3. Feature Engineering
+
+Created a new `Car_Age` feature using the manufacturing year.
+
+### 4. Exploratory Data Analysis
+
+Analysed relationships between car prices and different features using:
+
+* Histograms
+* Scatter plots
+* Box plots
+* Statistical summaries
+
+### 5. Machine Learning Models
+
+Two regression models were implemented:
+
+* Linear Regression
+* Random Forest Regression
+
+### 6. Model Evaluation
+
+The models were evaluated using:
+
+* Mean Absolute Error (MAE)
+* Root Mean Squared Error (RMSE)
+* R² Score
+
+### 7. Prediction
+
+The trained Random Forest model was used to predict the selling price of a sample car and compare the predicted value with its actual selling price.
+
+## Key Insights
+
+* Present price has an important relationship with the selling price.
+* Car age can affect the resale value.
+* Driven kilometers can influence used-car prices.
+* Fuel type, transmission, and selling type contribute to price differences.
+* Machine learning regression models can be used to estimate used-car selling prices from vehicle features.
+
+## Project Files
+
+`Car_Price_Prediction_CodeAlpha_Task3.ipynb`
+
+## How to Run
+
+1. Open the notebook in Google Colab.
+2. Run the cells from top to bottom.
+3. Upload the provided ZIP dataset when requested.
+4. The notebook performs preprocessing, visualization, model training, evaluation, and prediction.
+
+## Internship
+
+**CodeAlpha Data Science Internship - Task 3**
+
+### Status
+
+Completed
